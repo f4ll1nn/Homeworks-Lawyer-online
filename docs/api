@@ -1,2 +1,40 @@
 Функціональні можливості Natural Language API
 
+Для використання потрібно мати обліковий запис Google.
+Перше завдання: увійти до консолі Google Cloud Platform та створити новий проект.
+Щоб розпочати використання потрібно за допомогою Cloud Shell увімкнути API, а для цього є ввести:
+      gcloud services enable language.googleapis.com
+Потрібно отримати за допомогою Cloud SDK service Account. Для цього ввести у Cloud Shell такі команди:
+      export PROJECT_ID=$(gcloud config get-value core/project)
+      
+      gcloud iam service-accounts create my-nl-sa \
+       --display-name "my nl service account"
+      
+      gcloud iam service-accounts keys create ~/key.json \
+       --iam-account  my-nl-sa@${PROJECT_ID}.iam.gserviceaccount.com
+      
+      export GOOGLE_APPLICATION_CREDENTIALS="/home/${USER}/key.json"
+
+Потрібно провести інсталяцію Google Cloud Python
+      pip install --upgrade google-cloud-language
+      
+То ж, що може робити Natural Language API?
+- Аналіз почуттів у тектсі
+- Класифікація змісту
+- Синтаксичний аналіз
+- Аналіз сутності
+
+Аналіз почуттів абсолютно не потрібний для моєї роботи, а усі інші згодяться.
+
+Як працює класифікація змісту?
+Вводиться текст, і за допомогою певних операцій можна отримати інформацію про категорію введенного 
+тексту та відсоток впевненості. Це може бути корисним при аналізі статей ККУ з різних розділів.
+
+Синтаксичний аналіз:
+Будує зв'язки між словами у реченні, визначає частину мови для кожного слова, час та інші деталі.
+За допмогою цього можна визначити основну та другорядну інформацію.
+Легко вивести на екран усі іменники, чи дієслова.
+
+Аналіз сутності:
+Аналіує об'єкти в реченні, шукаючи іменники, наприклад громадські діячі тощо, і повертає про це інформацію.
+
