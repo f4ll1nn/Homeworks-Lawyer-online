@@ -3,7 +3,7 @@
 
 ![1.png](https://github.com/lianaonyshkiv/Homeworks-Lawyer-online/blob/master/1.png)
 
-# Projecct name: 
+# Project name: 
 Lawyer-online
     
 # Description: 
