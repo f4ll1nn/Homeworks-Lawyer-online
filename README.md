@@ -27,7 +27,21 @@ Lawyer-online
 
 # Installation:
 
+Для використання достатньо просто зберегти папку web_application, що знаходиться у modules.
+Після цього запустити run.py, що у my_app, та перейти за посиланням у терміналі
+![8.png](https://github.com/lianaonyshkiv/Homeworks-Lawyer-online/blob/master/8.png)
+
 # Usage:
+
+Після переходу на сайт побачите таке відображення
+![9.png](https://github.com/lianaonyshkiv/Homeworks-Lawyer-online/blob/master/9.png)
+Гортаючи вниз, буде
+![10.png](https://github.com/lianaonyshkiv/Homeworks-Lawyer-online/blob/master/10.png)
+![11.png](https://github.com/lianaonyshkiv/Homeworks-Lawyer-online/blob/master/11.png)
+![12.png](https://github.com/lianaonyshkiv/Homeworks-Lawyer-online/blob/master/12.png)
+На останньому зображенні видно, що є можливість увести свою ситуацію у спеціальновідведеному місці.
+Введіть її та отримайте результат.
+Працює лише українською мовою.
 
 # Contribution:
 
