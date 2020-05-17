@@ -6,8 +6,8 @@ import openpyxl
 import xlsxwriter
 from nltk.corpus import wordnet
 
-import pytextrank.pytextrank.pytextrank as pyt
-from kku.trans.mtranslate.mtranslate import translate
+import modules.pytextrank.pytextrank.pytextrank as pyt
+from modules.kku.trans.mtranslate.mtranslate import translate
 
 
 class UsersSituation:
