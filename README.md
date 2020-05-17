@@ -37,7 +37,7 @@ Lawyer-online
 Структура програми:
 Модуль run.py запускає застосунок для користувача
 Усі модулі у папках kku та samples були призначені для обробки інформації перед запуском застосунку
-Інше буде описано після завершення
+wev_application містить усе пов'язане із робою веб-застосунку
 
 
 # Usage:
@@ -53,7 +53,9 @@ Lawyer-online
 Працює лише українською мовою.
 Заповнювати усі поля не обов'язково.
 
-Тестові приклади будуть додані опісля завершення циклу домашніх завдань.
+Наприклад після вводу "Шахрайство" результат виглядатиме так
+![14.jpg](https://github.com/lianaonyshkiv/Homeworks-Lawyer-online/blob/master/images/14.png)
+![15.jpg](https://github.com/lianaonyshkiv/Homeworks-Lawyer-online/blob/master/images/15.png)
 
 # Contribution:
 
