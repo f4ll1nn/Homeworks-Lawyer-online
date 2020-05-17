@@ -2,10 +2,10 @@
 import langdetect
 import openpyxl
 import pandas as pd
-import pytextrank.pytextrank.pytextrank as pyt
+import modules.pytextrank.pytextrank.pytextrank as pyt
 from nltk.corpus import wordnet
 
-from kku.trans.mtranslate.mtranslate import translate
+from modules.kku.trans.mtranslate.mtranslate import translate
 
 
 class Article:

@@ -1,6 +1,6 @@
 """Module-sample of using Article ADT"""
 import pandas as pd
-from choicing_relevant_information_in_articles import Article
+from modules.kku.choicing_relevant_information_in_articles import Article
 
 RESULT = pd.read_excel("articles_with_punkts.xlsx")
 pd.set_option('display.width', None)
