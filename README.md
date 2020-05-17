@@ -1,7 +1,7 @@
 # Homeworks-Lawyer-online
 Містить результати виконання домашніх завдань. 
 
-![1.png](https://github.com/lianaonyshkiv/Homeworks-Lawyer-online/blob/master/1.png)
+![1.png](https://github.com/lianaonyshkiv/Homeworks-Lawyer-online/blob/master/images/1.png)
 
 # Project name: 
 Lawyer-online
