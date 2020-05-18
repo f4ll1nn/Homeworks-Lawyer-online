@@ -101,7 +101,11 @@ samples(папка із прикладами використання АТД):
 
 # Installation:
 
-Для використання достатньо просто зберегти папку web_application, що знаходиться у modules.
+Для використання достатньо просто 
+<pre>
+git clone https://github.com/lianaonyshkiv/Homeworks-Lawyer-online
+</pre>
+
 Після цього запустити run.py, що у my_app, та перейти за посиланням у терміналі
 ![8.png](https://github.com/lianaonyshkiv/Homeworks-Lawyer-online/blob/master/images/8.png)
 
