@@ -107,7 +107,7 @@ git clone https://github.com/lianaonyshkiv/Homeworks-Lawyer-online
 </pre>
 
 Після цього запустити run.py, що у my_app, та перейти за посиланням у терміналі
-![7.png](https://github.com/lianaonyshkiv/Homeworks-Lawyer-online/blob/master/images/8.png)
+![8.png](https://github.com/lianaonyshkiv/Homeworks-Lawyer-online/blob/master/images/8.png)
 
 Структура програми:
 Модуль run.py запускає застосунок для користувача
