@@ -11,7 +11,7 @@ The project aims to automate legal advice. Because the project there is a limite
 
 Legal decisions are often subjective, as they use human resources that are somehow interested in one of the parties. Automation of legal processes should make these processes less subjective and fairer over time. Obviously, the work on this project should take much longer. However, for this period of time you can definitely function this programs to simplify the work in the field of jurisprudence, namely the classification of criminal situations, and then improve.
 
-Input: situation from the user
+Input: situation from the user </br>
 Weekend: a selection of articles of the Criminal Code of Ukraine
 
 # Structure:
