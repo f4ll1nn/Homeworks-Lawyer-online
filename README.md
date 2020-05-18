@@ -22,8 +22,7 @@ Lawyer-online
 Вихідні: підбірка статтей кримінального кодексу України
 
 # Structure:
-<pre>
-docs(усі текстові файли, що були необхідними для виконання дз):
+*docs(усі текстові файли, що були необхідними для виконання дз):
 
     adt - опис АТД використаних при виконанні домашніх завдань
     analysis - аналіз результатів, що вийшли за час виконання циклу домашніх завдань
@@ -90,7 +89,6 @@ samples(папка із прикладами використання АТД):
     kku_adt_sample.py - модуль-приклад використання KKU ADT
     sample_adt_sample.py - модуль приклад використання Sample ADT
     
-</pre>
 
 # Table of Contents: 
 1. [Installation](#installation)
@@ -108,12 +106,6 @@ git clone https://github.com/lianaonyshkiv/Homeworks-Lawyer-online
 
 Після цього запустити run.py, що у my_app, та перейти за посиланням у терміналі
 ![8.png](https://github.com/lianaonyshkiv/Homeworks-Lawyer-online/blob/master/images/8.png)
-
-Структура програми:
-Модуль run.py запускає застосунок для користувача
-Усі модулі у папках kku та samples були призначені для обробки інформації перед запуском застосунку
-wev_application містить усе пов'язане із робою веб-застосунку
-
 
 # Usage:
 
