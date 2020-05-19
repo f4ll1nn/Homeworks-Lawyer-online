@@ -1,0 +1,278 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Welcome to Homeworks-Lawyer-online’s documentation! &#8212; Homeworks-Lawyer-online 0.0.1 documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/language_data.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="module-choicing_relevant_information_in_articles">
+<span id="welcome-to-homeworks-lawyer-online-s-documentation"></span><h1>Welcome to Homeworks-Lawyer-online’s documentation!<a class="headerlink" href="#module-choicing_relevant_information_in_articles" title="Permalink to this headline">¶</a></h1>
+<p>Module of realisation choice relevant information in articles</p>
+<dl class="py class">
+<dt id="choicing_relevant_information_in_articles.Article">
+<em class="property">class </em><code class="sig-prename descclassname">choicing_relevant_information_in_articles.</code><code class="sig-name descname">Article</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">number</span><span class="p">:</span> <span class="n">int</span></em>, <em class="sig-param"><span class="n">name</span><span class="p">:</span> <span class="n">str</span></em>, <em class="sig-param"><span class="n">punkt1</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">punkt2</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">punkt3</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">punkt4</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">punkt5</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">punkt6</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">punkt7</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">punkt8</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="headerlink" href="#choicing_relevant_information_in_articles.Article" title="Permalink to this definition">¶</a></dt>
+<dd><p>Class of articles</p>
+<dl class="py method">
+<dt id="choicing_relevant_information_in_articles.Article.find_synonyms">
+<code class="sig-name descname">find_synonyms</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">relevant_words_list</span></em><span class="sig-paren">)</span> &#x2192; set<a class="headerlink" href="#choicing_relevant_information_in_articles.Article.find_synonyms" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns list of synonyms and this words, that can be relevant
+to each article</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="choicing_relevant_information_in_articles.Article.relevant_information_in_name">
+<code class="sig-name descname">relevant_information_in_name</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; list<a class="headerlink" href="#choicing_relevant_information_in_articles.Article.relevant_information_in_name" title="Permalink to this definition">¶</a></dt>
+<dd><p>Choising relevant information in name of articles
+This words will be in self.relevant_name</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="choicing_relevant_information_in_articles.Article.relevant_information_in_punkts">
+<code class="sig-name descname">relevant_information_in_punkts</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; list<a class="headerlink" href="#choicing_relevant_information_in_articles.Article.relevant_information_in_punkts" title="Permalink to this definition">¶</a></dt>
+<dd><p>Choising relevant indormation in each punkts of articles
+This words will be in self.relevant_point(number)</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="choicing_relevant_information_in_articles.Article.synonyms_check">
+<code class="sig-name descname">synonyms_check</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">set_syn</span></em><span class="sig-paren">)</span> &#x2192; list<a class="headerlink" href="#choicing_relevant_information_in_articles.Article.synonyms_check" title="Permalink to this definition">¶</a></dt>
+<dd><p>Check are all word in synonyms set ukrainian</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="choicing_relevant_information_in_articles.Article.transalte_name">
+<code class="sig-name descname">transalte_name</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; None<a class="headerlink" href="#choicing_relevant_information_in_articles.Article.transalte_name" title="Permalink to this definition">¶</a></dt>
+<dd><p>Translates name into english in order to use later Natural language
+Google Api. This information will be in self.translated_name</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="choicing_relevant_information_in_articles.Article.translate_punkts">
+<code class="sig-name descname">translate_punkts</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; None<a class="headerlink" href="#choicing_relevant_information_in_articles.Article.translate_punkts" title="Permalink to this definition">¶</a></dt>
+<dd><p>Translates punkt into english in order to use later Natural
+language Google Api.</p>
+</dd></dl>
+
+</dd></dl>
+
+<span class="target" id="module-read_save_input"></span><p>Realization usersituation upworking</p>
+<dl class="py class">
+<dt id="read_save_input.UsersSituation">
+<em class="property">class </em><code class="sig-prename descclassname">read_save_input.</code><code class="sig-name descname">UsersSituation</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">data</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">category</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">result</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="headerlink" href="#read_save_input.UsersSituation" title="Permalink to this definition">¶</a></dt>
+<dd><p>Class of users situations</p>
+<dl class="py method">
+<dt id="read_save_input.UsersSituation.choicing_relevant_information_from_situation">
+<code class="sig-name descname">choicing_relevant_information_from_situation</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; None<a class="headerlink" href="#read_save_input.UsersSituation.choicing_relevant_information_from_situation" title="Permalink to this definition">¶</a></dt>
+<dd><p>Chose relevant information from situation discription</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="read_save_input.UsersSituation.find_articles">
+<code class="sig-name descname">find_articles</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">user_word_set</span></em><span class="sig-paren">)</span><a class="headerlink" href="#read_save_input.UsersSituation.find_articles" title="Permalink to this definition">¶</a></dt>
+<dd><p>Find articles ro situations</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="read_save_input.UsersSituation.find_persons">
+<code class="sig-name descname">find_persons</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#read_save_input.UsersSituation.find_persons" title="Permalink to this definition">¶</a></dt>
+<dd><p>Finds main persons in situation</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="read_save_input.UsersSituation.find_synonyms">
+<code class="sig-name descname">find_synonyms</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">relevant_words_list</span></em><span class="sig-paren">)</span> &#x2192; set<a class="headerlink" href="#read_save_input.UsersSituation.find_synonyms" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns list of synonyms and this words, that can be relevant
+to each article</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="read_save_input.UsersSituation.history_user_write">
+<code class="sig-name descname">history_user_write</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; None<a class="headerlink" href="#read_save_input.UsersSituation.history_user_write" title="Permalink to this definition">¶</a></dt>
+<dd><p>Creates file for current user history with his situation</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="read_save_input.UsersSituation.read_users_situation">
+<code class="sig-name descname">read_users_situation</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">filename</span><span class="p">:</span> <span class="n">str</span></em><span class="sig-paren">)</span> &#x2192; str<a class="headerlink" href="#read_save_input.UsersSituation.read_users_situation" title="Permalink to this definition">¶</a></dt>
+<dd><p>Reads users_situation from exel file. Returns users situation</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="read_save_input.UsersSituation.saves_result">
+<code class="sig-name descname">saves_result</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">filename1</span><span class="p">:</span> <span class="n">str</span></em>, <em class="sig-param"><span class="n">filename2</span><span class="p">:</span> <span class="n">str</span></em><span class="sig-paren">)</span> &#x2192; None<a class="headerlink" href="#read_save_input.UsersSituation.saves_result" title="Permalink to this definition">¶</a></dt>
+<dd><p>Writes result to users_history and to result</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="read_save_input.UsersSituation.synonyms_check">
+<code class="sig-name descname">synonyms_check</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">set_syn</span></em><span class="sig-paren">)</span> &#x2192; list<a class="headerlink" href="#read_save_input.UsersSituation.synonyms_check" title="Permalink to this definition">¶</a></dt>
+<dd><p>Check are all word in synonyms set ukrainian</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="read_save_input.UsersSituation.translate_situation">
+<code class="sig-name descname">translate_situation</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; None<a class="headerlink" href="#read_save_input.UsersSituation.translate_situation" title="Permalink to this definition">¶</a></dt>
+<dd><p>Translates situation into english</p>
+</dd></dl>
+
+</dd></dl>
+
+<span class="target" id="module-run"></span><p>Running web application</p>
+<dl class="py function">
+<dt id="run.index">
+<code class="sig-prename descclassname">run.</code><code class="sig-name descname">index</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#run.index" title="Permalink to this definition">¶</a></dt>
+<dd><p>Running start.html</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="run.pars_urls">
+<code class="sig-prename descclassname">run.</code><code class="sig-name descname">pars_urls</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#run.pars_urls" title="Permalink to this definition">¶</a></dt>
+<dd><p>Saving result from form</p>
+</dd></dl>
+
+<span class="target" id="module-samples"></span><p>Module of reading tasks in 1.csv</p>
+<dl class="py class">
+<dt id="samples.Samples">
+<em class="property">class </em><code class="sig-prename descclassname">samples.</code><code class="sig-name descname">Samples</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">file_name</span><span class="p">:</span> <span class="n">str</span></em><span class="sig-paren">)</span><a class="headerlink" href="#samples.Samples" title="Permalink to this definition">¶</a></dt>
+<dd><p>Class of Book</p>
+<dl class="py method">
+<dt id="samples.Samples.choising_relevant_rows">
+<code class="sig-name descname">choising_relevant_rows</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">param</span><span class="p">:</span> <span class="n">str</span></em><span class="sig-paren">)</span> &#x2192; pandas.core.frame.DataFrame<a class="headerlink" href="#samples.Samples.choising_relevant_rows" title="Permalink to this definition">¶</a></dt>
+<dd><p>Choices needed rows from file and write that indexes in list
+Returns list of indexes</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="samples.Samples.choising_sentences">
+<code class="sig-name descname">choising_sentences</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">indexes_list</span><span class="p">:</span> <span class="n">list</span></em>, <em class="sig-param"><span class="n">df_for_using</span><span class="p">:</span> <span class="n">str</span></em><span class="sig-paren">)</span> &#x2192; list<a class="headerlink" href="#samples.Samples.choising_sentences" title="Permalink to this definition">¶</a></dt>
+<dd><p>Choices sentences to task and returns list of strings of
+sentences to each tasks</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="samples.Samples.creating_df_for_result">
+<code class="sig-name descname">creating_df_for_result</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">df_for_using</span><span class="p">:</span> <span class="n">str</span></em><span class="sig-paren">)</span> &#x2192; pandas.core.frame.DataFrame<a class="headerlink" href="#samples.Samples.creating_df_for_result" title="Permalink to this definition">¶</a></dt>
+<dd><p>Creates dataframe for result and returns it</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="samples.Samples.creating_samples_df">
+<code class="sig-name descname">creating_samples_df</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">df_user</span><span class="p">:</span> <span class="n">str</span></em>, <em class="sig-param"><span class="n">punkts</span><span class="p">:</span> <span class="n">list</span></em><span class="sig-paren">)</span> &#x2192; pandas.core.frame.DataFrame<a class="headerlink" href="#samples.Samples.creating_samples_df" title="Permalink to this definition">¶</a></dt>
+<dd><p>Creates dataframe where each task has all its sentences</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="samples.Samples.save_samples">
+<code class="sig-name descname">save_samples</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; None<a class="headerlink" href="#samples.Samples.save_samples" title="Permalink to this definition">¶</a></dt>
+<dd><p>Creates exel file with result</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="samples.Samples.situation_sample_read">
+<code class="sig-name descname">situation_sample_read</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; list<a class="headerlink" href="#samples.Samples.situation_sample_read" title="Permalink to this definition">¶</a></dt>
+<dd><p>Reads all rws from book. Returns list of rows</p>
+</dd></dl>
+
+</dd></dl>
+
+<div class="toctree-wrapper compound">
+</div>
+</div>
+<div class="section" id="modules">
+<h1>Modules<a class="headerlink" href="#modules" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><p><a class="reference internal" href="genindex.html"><span class="std std-ref">Index</span></a></p></li>
+<li><p><a class="reference internal" href="py-modindex.html"><span class="std std-ref">Module Index</span></a></p></li>
+<li><p><a class="reference internal" href="search.html"><span class="std std-ref">Search Page</span></a></p></li>
+</ul>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="#">Homeworks-Lawyer-online</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="#">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2020, Roksoliana Onyshkiv.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.0.3</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="_sources/index.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
