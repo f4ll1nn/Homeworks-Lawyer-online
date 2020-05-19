@@ -1,5 +1,5 @@
 """ Module-example of using KKU ADT"""
-from creating_fie_for_articles_with_punkts import KKU
+from modules.kku.creating_fie_for_articles_with_punkts import KKU
 
 FILE = "kku.csv"
 KKU_UK = KKU(FILE)

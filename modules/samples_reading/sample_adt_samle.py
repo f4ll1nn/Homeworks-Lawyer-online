@@ -1,5 +1,5 @@
 """Module-example of using SAMPLES ADT"""
-from samples import Samples
+from modules.samples_reading.samples import Samples
 
 FILE_NAME = "2.csv"
 BOOK = Samples(FILE_NAME)

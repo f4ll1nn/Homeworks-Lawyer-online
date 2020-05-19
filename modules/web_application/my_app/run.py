@@ -1,6 +1,5 @@
 """ Running web application """
 import openpyxl
-import os
 from flask import Flask, render_template, request
 
 from modules.web_application.my_app.reading_users_situations.read_save_input import \
@@ -23,7 +22,8 @@ def pars_urls():
     category = request.form["dept"]
     name = request.form["name"]
     email = request.form["email"]
-    workbook = openpyxl.load_workbook("result.xlsx")
+    workbook = openpyxl.load_workbook(
+        "result.xlsx")
     worksheet = workbook.active
     worksheet.cell(column=1, row=worksheet.max_row + 1, value=situation)
     worksheet.cell(column=2, row=worksheet.max_row, value=category)
