@@ -4,7 +4,8 @@ Contains the results of homework.
 ![1.png](https://github.com/lianaonyshkiv/Homeworks-Lawyer-online/blob/master/images/1.png)
 
 # Project name: 
-Lawyer-online
+Lawyer-online </br>
+Web application: https://cryptic-sierra-19326.herokuapp.com/#
     
 # Description: 
 The project aims to automate legal advice. Because the project there is a limited time - 8 weeks - at the moment, the program will not work perfectly. According to the description of the situation, several probable articles will be selected that could be suitable for this situation, for the sake of specificity later the program will ask additional questions that it will need for the final decision. Information on sources can be found [here](https://github.com/lianaonyshkiv/Homeworks-Lawyer-online/wiki). More information on the motivation for choosing such topics can be found behind this [link](https://github.com/lianaonyshkiv/Homeworks-Lawyer-online/wiki/%D0%94%D0%BE%D0%BC%D0%B0%D1%88%D0%BD%D1%94-%D0%B7%D0%B0%D0%B2%D0%B4%D0%B0%D0%BD%D0%BD%D1%8F-%E2%84%960).
@@ -117,7 +118,7 @@ Enter it and get the result.
 Works only in Ukrainian.
 It is not necessary to fill in all fields.
 
-For example, after entering "Fraud" the result will look like this
+For example, after entering "Шахрайство"(discription can de also longer) the result will look like this
 ![14.jpg](https://github.com/lianaonyshkiv/Homeworks-Lawyer-online/blob/master/images/14.png)
 ![15.jpg](https://github.com/lianaonyshkiv/Homeworks-Lawyer-online/blob/master/images/15.png)
 
