@@ -4,7 +4,7 @@ Contains the results of homework.
 ![1.png](https://github.com/lianaonyshkiv/Homeworks-Lawyer-online/blob/master/images/1.png)
 
 # Project name: 
-Lawyer-online
+Lawyer-online </br>
 Web application: https://cryptic-sierra-19326.herokuapp.com/#
     
 # Description: 
