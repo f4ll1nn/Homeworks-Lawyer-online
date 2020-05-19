@@ -118,7 +118,7 @@ Enter it and get the result.
 Works only in Ukrainian.
 It is not necessary to fill in all fields.
 
-For example, after entering "Fraud" the result will look like this
+For example, after entering "Шахрайство"(discription can de also longer) the result will look like this
 ![14.jpg](https://github.com/lianaonyshkiv/Homeworks-Lawyer-online/blob/master/images/14.png)
 ![15.jpg](https://github.com/lianaonyshkiv/Homeworks-Lawyer-online/blob/master/images/15.png)
 
